@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/navigation_map"
+        android:title="Map"
+        android:icon="@drawable/map"/>
+
+    <item android:id="@+id/navigation_ebooks"
+        android:title="Ebooks"
+        android:icon="@drawable/book"/>
+
+    <item android:id="@+id/navigation_theme"
+        android:title="Themes"
+        android:icon="@drawable/mode"/>
+
+    <item android:id="@+id/navigation_website"
+        android:title="Website"
+        android:icon="@drawable/web"/>
+
+
+
+
+</menu>

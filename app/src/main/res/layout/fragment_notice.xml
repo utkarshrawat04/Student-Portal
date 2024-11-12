@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="620dp"
+    tools:context=".ui.notice.NoticeFragment">
+
+    <!-- Notice Header -->
+    <TextView
+        android:id="@+id/notice_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notices"
+        android:textSize="24sp"
+        android:textColor="#F73E7C"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp" />
+
+    <!-- RecyclerView for Notices -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/deleteNoticeRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/notice_header"/>
+
+    <!-- ProgressBar for loading -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</FrameLayout>

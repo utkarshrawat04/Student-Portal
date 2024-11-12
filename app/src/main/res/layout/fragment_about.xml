@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:id="@+id/college_image"
+            android:layout_width="373dp"
+            android:layout_height="290dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/aaaa" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#F73E7C"
+            android:gravity="center"
+            android:text="About Us"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="#F73E7C"
+            android:gravity="center"
+            android:text="This Student Portal App was created by the following team members:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F73E7C"
+            android:text="1. Utkarsh Rawat (I069)\n2. Tanish Punamiya (I065)\n3. Karan Bedi (I074)"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
